@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Include FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-logo">
+            <!-- Ensure correct path for image -->
+            <img src="images.jpeg" alt="IMDb Logo">
+        </div>
+        <div class="navbar-search">
+            <input type="text" placeholder="Search IMDb">
+            <button id="btn">Search</button>
+        </div>
+        <div class="navbar-links">
+            <a href="#"><i class="fas fa-bookmark"></i> Watchlist</a>
+            <a href="#"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+            <div class="language-option">
+                <select>
+                    <option value="en">Eng</option>
+                    <option value="fr">Fre</option>
+                    <option value="es">Span</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+<section>
+    <div>
+        <!-- Add functionality to this button in your JavaScript -->
+        <button id="fetchButton">Fetch Movies</button>
+    </div>
+    <div class="main">
+        <div class="container">
+        </div>
+    </div>
+</section>
+<!-- Ensure correct path for JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
